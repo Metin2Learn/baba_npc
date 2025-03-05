@@ -1,0 +1,22 @@
+ScriptType               MotionData
+
+MotionFileName           "d:/ymir work/npc/goods/tired.gr2"
+MotionDuration           3.333333
+
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         1.230000
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip001 Head001"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/npc/goods/yawn.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}
